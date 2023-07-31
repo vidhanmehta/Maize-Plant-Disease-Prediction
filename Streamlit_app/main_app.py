@@ -12,8 +12,10 @@ st.title("Maize(Corn) Plant Leaf Disease Detection")
 
 st.markdown ("Upload an image of the maize (corn) leaf")
 
-plant_image = st.file_uploader ("Choose an image...", type="jpg") 
+plant_image = st.file_uploader("Choose an image...", type="jpg")
 submit= st.button('Predict Disease')
+
+
 
 if submit:
 	if plant_image is not None:
